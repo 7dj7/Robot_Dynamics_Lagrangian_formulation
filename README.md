@@ -10,4 +10,4 @@
 As an example, the dynamics of a 7 DOF robot arm called the Swayer Arm has been calculated <br>
 ![sawyer_figure](https://user-images.githubusercontent.com/35372234/94787969-99a9ab80-03f0-11eb-802c-90024dafa024.png)
 
-One needs to change the DOF value and the DH matrix in order obtain the desired equations of motion
+One needs to change the DOF value and the DH matrix in the 'complete_dynamics.m' file  in order to obtain the desired equations of motion
