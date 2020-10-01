@@ -21,7 +21,7 @@ a10 = 81;
 Ti = cell(n,1);
 
 % Homogeneous transformations solution
-DH = [a1 -pi/2 d(1) q(1); 0 -pi/2 d(2) q(2); 0 -pi/2 d(3) q(3); 0 -pi/2 d(4) q(4); 0 -pi/2 d(5) q(5); 0 -pi/2 d(6) q(6); 0 0 d(7) q(7)];
+DH = [a1 -pi/2 d(1) q(1); 0 -pi/2 d(2) q(2); 0 -pi/2 d(3) q(3); 0 -pi/2 d(4) q(4); 0 -pi/2 d(5) q(5); 0 -pi/2 d(6) q(6); 0 0 d(7) q(7)]; % DH Parameter Matrix
 T = eye(4);
 for i = 1:n
     temp = compute_dh_matrix(DH(i,1),DH(i,2),DH(i,3),DH(i,4));
